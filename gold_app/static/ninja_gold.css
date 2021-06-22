@@ -1,0 +1,81 @@
+.container {
+    height: 600px;
+    width: 1040px;
+    margin-top: 50px;
+    border: 4px solid black;
+    background-color: lightgrey;
+}
+
+    .nav {
+        margin: 30px 0px 0px 0px;
+        display: flex;
+        height: 40px;
+        width: 980;
+        text-align: center;
+    }
+
+        .header {
+            height: 30px;
+            margin-top: 7px;
+        }
+
+        span {
+            margin: 10px 10px 0px 30px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .btn-danger {
+            width: 90px;
+            margin-left: 580px;
+        }
+
+    .boxes {
+        height: 240px;
+        width: 1000px;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-evenly;
+        margin: 20px 20px 0px 0px;
+    }
+
+        .box {
+            border: 3px solid black;
+            height: 215px;
+            width: 215px;
+            background-color: rgb(152, 174, 216);
+            display: block;
+            text-align: center;
+        }
+
+            h2{
+                margin-top: 30px;
+            }
+
+            p {
+                margin-top: 15px;
+                font-size: 17px;
+                font-weight: bold;
+            }
+
+            .btn-dark{
+                margin-top: 10px;
+                color: #fefaa3;
+            }
+
+    .last {
+        height: 210px;
+        width: 940px;
+        display: block;
+        background-color: white;
+        margin-left: 30px;
+    }
+
+        h4{
+            margin-left: 30px;
+        }
+
+        .act{
+            padding: 0px;
+            margin: 0px;
+        }
